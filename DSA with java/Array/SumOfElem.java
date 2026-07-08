@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import javax.sound.sampled.SourceDataLine;
 public class SumOfElem{
     public static void main(String[] args) {
         // int[] arr={10,2,50,40,70};
