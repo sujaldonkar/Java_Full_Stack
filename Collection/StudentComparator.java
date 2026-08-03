@@ -1,6 +1,8 @@
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Collections;
 import java.util.Comparator;
+//import java.util.Comparator;
+import java.util.List;
 
 class Student{
 	String name;
@@ -12,11 +14,11 @@ class Student{
 	}
 }
 
-// class MyComparator implements Comparator<Student>{
-// 	public int compare(Student s1,Student s2) {
-// 		return s2.age-s1.age;
-// 	}
-// }
+//class MyComparator implements Comparator<Student>{
+//	public int compare(Student s1,Student s2) {
+//		return s2.age-s1.age;
+//	}
+//}
 
 public class StudentComparator {
 
@@ -32,9 +34,9 @@ public class StudentComparator {
 //		Collections.sort(st,new MyComparator());
 //		st.sort(Comparator.comparing(s->s.age));
 		
-		// st.sort(Comparator.comparingInt((Student s)->s.age).reversed());
-
-    st.sort(Comparator.comparing((Student s)->s.age).thenComparing(s->s.name));    
+//		st.sort(Comparator.comparingInt((Student s)->s.age).reversed());
+		
+		System.out.println(st.get(0).age);
 		
 		for(Student s: st) {
 			System.out.println(s.name +" "+ s.age);
