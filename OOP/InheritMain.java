@@ -8,7 +8,11 @@ class Vehicle{
 }
 class Cars extends Vehicle{
     public int milage;
-    System.out.println()
+    void output(){
+        System.out.println("name"+name);
+        System.out.println("weels"+weels);
+        System.out.println("milage"+milage);
+    }
 }
 
 public class InheritMain{

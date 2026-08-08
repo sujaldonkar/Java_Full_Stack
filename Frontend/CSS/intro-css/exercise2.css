@@ -1,0 +1,14 @@
+body{
+    font-family:Montserrat;
+    text-align: center;
+}
+.head{
+    font-weight:bold;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.del{
+    text-decoration: underline;
+    cursor: pointer;
+}

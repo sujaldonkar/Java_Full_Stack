@@ -16,5 +16,8 @@ public class AliveMethod{
 
         System.out.println(t2.isAlive());
         t2.start();
+
+        t3.start();
+        System.out.println(t3.isAlive());
     }
 }

@@ -2,7 +2,7 @@ class A{
     String name;
     int age;
     void show(){
-        System.out.println("Class A");
+        System.out.println("Class A age: " + age);
     }
     void show(String n){
         name=n;

@@ -7,10 +7,12 @@ interface A{
 interface B extends A{
     void call();
 }
-class C implements A,B{
+class C implements B{
+    @Override
     public void display(){
         System.out.println("Hii");
     }
+    @Override
     public void call(){
         System.out.println("Interface B");
     } 

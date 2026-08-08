@@ -1,6 +1,4 @@
 {
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "JDBC/lib/postgresql-42.7.13.jar"
-    ]
+    "java.project.referencedLibraries": [],
+    "java.project.sourcePaths": []
 }
